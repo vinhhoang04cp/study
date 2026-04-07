@@ -146,7 +146,7 @@
                         </table>
                     </div>
                 @else
-                    <p class="text-muted text-center">Chưa có bài học nào. <a href="{{ route('lessons.create', $course) }}">Thêm bài học</a></p>
+                    <p class="text-muted text-center">Chưa có bài học nào. <a href="{{ route('courses.lessons.create', $course) }}">Thêm bài học</a></p>
                 @endif
             @endcomponent
         </div>
